@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img src="logo.png" alt="PAWS Logo"></a>
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about_us.html" class="nav-link">About Us</a></li>
+            <li><a href="donate.html" class="nav-link">Donate</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+   
+    <header>
+        <h1>Support Our Cause</h1>
+        <p>Help us help more animals. PAWS is a registered non-profit organization, and therefore the shelter and all our programs and campaigns are funded solely by donations.</p>
+    </header>
+
+    <section class="donation-form">
+        <h2>Donate Now</h2>
+        <form action="submit_donation.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="mobile number">Mobile Number:</label>
+            <input type="mobile number" id="mobile number" name="mobile number" required placeholder="Enter your mobile number">
+
+            <label for="donation-amount">Donation Amount (PHP):</label>
+            <input type="number" id="donation-amount" name="donation-amount" required min="1" placeholder="Enter donation amount">
+
+            <button type="submit">Donate</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 The Philippine Animal Welfare Society. All Rights Reserved
+    </footer>
+</body>
+</html>

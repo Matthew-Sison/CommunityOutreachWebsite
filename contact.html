@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img src="logo.png" alt="PAWS Logo"></a>
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about_us.html" class="nav-link">About Us</a></li>
+            <li><a href="donate.html" class="nav-link">Donate</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+   </nav>
+   
+    <header>
+        <h1>Contact Us</h1>
+        <p>For helpful information on caring for animals, we have provided as much information as possible on our website. Please search thoroughly before messaging us.</p>
+    </header>
+
+<section class="contact-form">
+    <div class="left-right">
+        <div class="left">
+            <label for="concern">Select your MAIN concern*</label>
+            <select id="concern" name="concern" required>
+                <option value="spay_neuter">Spay / Neuter (Kapon)</option>
+                <option value="tnr">TNR (Trap-Neuter-Return)</option>
+                <option value="rescue_wildlife">Rescue / Wildlife</option>
+                <option value="cruelty_neglect">Cruelty / Neglect</option>
+                <option value="clinic_vet">Clinic / Vet</option>
+                <option value="adopt_foster">Adopt / Foster</option>
+                <option value="donation_inquiry">Donation Inquiry</option>
+                <option value="volunteer_inquiry">Volunteer Inquiry</option>
+                <option value="disaster_relief">Disaster Relief</option>
+                <option value="humane_education">Humane Education (Seminars / Lectures)</option>
+                <option value="student_inquiries">Thesis, OJT & Other Student Inquiries</option>
+                <option value="company_inquiries">Partnership, CSR & Other Company Inquiries</option>
+                <option value="dr_dog_lead">Dr. Dog / LEAD</option>
+                <option value="better_chicken_option">The Better Chicken Option</option>
+                <option value="pet_friendly_establishment">Recommend a Pet-Friendly Establishment</option>
+            </select>
+        </div>
+
+        <div class="right">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile">
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 The Philippine Animal Welfare Society. All Rights Reserved.</p>
+    <div class="social-media">
+        <a href="#" aria-label="Facebook"><img src="Facebook.png" alt="Facebook Icon"></a>
+        <a href="#" aria-label="Instagram"><img src="Instagram.jpg" alt="Instagram Icon"></a>
+        <a href="#" aria-label="Twitter"><img src="Twitter.png" alt="Twitter Icon"></a>
+    </div>
+</footer>
+    
+</body>
+</html>
